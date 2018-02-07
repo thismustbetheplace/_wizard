@@ -1,0 +1,4 @@
+name="XYZ  Estuary 18 Leia Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_theme.zip"
+icon="http://"
+fanart="http://"
