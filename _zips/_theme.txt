@@ -1,14 +1,14 @@
-name="[COLOR gold]XYZ[/COLOR] Estuary 18 Tweaked Theme"
+name="XYZ   Estuary 18 Leia Tweaked Theme"
 url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_theme.zip"
 icon="http://"
 fanart="http://"
 
-name="[COLOR gold]XYZ[/COLOR] Estuary 17 Tweaked Theme"
+name="XYZ   Estuary 17 Krypton Tweaked Theme"
 url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_theme.zip"
 icon="http://"
 fanart="http://"
 
-name="[COLOR gold]XYZ[/COLOR] Estuary 16 Tweaked Theme"
+name="XYZ   Estuary 16 Jarvis Tweaked Theme"
 url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/16_theme.zip"
 icon="http://"
 fanart="http://"
