@@ -1,0 +1,164 @@
+name="URL  Latest Kodi"
+section="yes"
+url="https://archive.org/download/LatestKodi_201707/latest%20kodi.txt"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Latest Kodi"
+
+
+name="URL  Genius Tv"
+section="yes"
+url="http://alluregrill.com/apk/gen.txt"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Genius Tv APK Android"
+
+
+name="URL  Zerotolerance Builds APKs"
+section="yes"
+url="http://builds.zerotolerance.gq/xmls/texts/apks.txt"
+icon="http://"
+fanart="http://"
+adult="no"
+description="All Zerotolerance Builds APKs for Android"
+
+
+name="URL  Supreme Builds APKs"
+section="yes"
+url="https://wizard.supremebuilds.com/texts/apks.txt"
+icon="http://"
+fanart="http://"
+adult="no"
+description="All Supreme Builds APKs for Android"
+
+
+name="URL  Firestickplus APKs"
+section="yes"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/apk.txt"
+icon="http://"
+fanart="http://"
+adult="no"
+description="All Firestickplus APKs for Android"
+
+
+name="URL  Ezzerman APKs"
+section="yes"
+url="http://www.miniaturelife.org/APKFiles/apk.txt"
+icon="http://"
+fanart="http://"
+adult="no"
+description="All Ezzerman APKs for Android"
+
+
+
+name="URL  MaverickTV APKs"
+section="yes"
+url="http://mavericktv.net/wiz/apk.txt"
+icon="http://"
+fanart="http://"
+adult="no"
+description="All MaverickTV APKs for Android"
+
+
+
+
+
+
+
+name="[COLOR firebrick]Direct===================================[/COLOR]"
+section="no"
+url="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="This Is A Divider"
+
+
+name="IPTV Subs"
+section="no"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_apks/iptvsubs.apk"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Test Apk"
+
+
+
+name="NBC Sports Live Extra"
+url="https://appraw.com/dl/4pHQqCxVT7"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Apk"
+
+name="Mediahh"
+url="http://www.apkthing.com/url/3Az"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Apk"
+
+name="TV Launcher Firestarter Replacement"
+url="http://tinyurl.com/jslo3yt"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Apk"
+
+name="APP Starter Firestarter Replacement"
+url="https://github.com/sphinx02/AppStarter/releases/download/v4.0/AppStarter-v4.0.apk"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Apk"
+
+
+
+name="Pluto TV"
+section="no"
+url="http://bit.ly/2t83wzB"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="What Is Pluto TV?
+
+
+
+name="USTV Now"
+section="no"
+url="http://bit.ly/2rOTS04"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="USTV allows you to watch many free United State television channels on your Android smartphone/tablet.
+
+name="MOBDRO"
+section="no"
+url="http://bit.ly/2t7Je96"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Find free video streams online and enjoy them on your Android phone or tablet: Mobdro constantly searches the web for the best free video streams and brings them to your device."
+
+name="ShowBox"
+section="no"
+url="http://showboxappdownloads.com/wp-content/uploads/2017/06/Showbox%204.920.apk"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Show Box is a free movies and TV shows streaming app for the Android. It is regarded as one of the best free Android apps as it allows users to watch movies in HD for free. Show Box is not available in the Google Play store so users will need to sideload it to the device. The tutorial will show you how-to install Show Box to an Android (phone or tablet) or Android based (Kindle Fire, BlackBerry, etc.) device."
+
+
+
+
+

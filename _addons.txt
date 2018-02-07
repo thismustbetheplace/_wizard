@@ -1,0 +1,171 @@
+
+name="IPTV Guide (Cake)"
+plugin="script.tvguide.fullscreen.skin.cake"
+url="https://raw.githubusercontent.com/thismustbetheplace/_repo/master/_zips/script.tvguide.fullscreen.skin.cake/"
+repository="repository._xyz"
+repositoryxml="https://raw.githubusercontent.com/thismustbetheplace/_repo/master/_zips/addons.xml"
+repositoryurl="https://raw.githubusercontent.com/thismustbetheplace/_repo/master/_zips/repository._xyz/"
+icon="http://"
+fanart="http://"
+adult="no"
+description="IPTVGuide Cake for TVGFS"
+
+
+
+
+name="Metalliq"
+plugin="plugin.video.metalliq"
+url="https://github.com/OpenELEQ/repository.q/tree/master/zips/plugin.video.metalliq/"
+repository="repository.noobsandnerds"
+repositoryxml="https://github.com/OpenELEQ/repository.q/blob/master/openeleq-addons.xml"
+repositoryurl="https://github.com/OpenELEQ/repository.q/blob/master/zips/repository.q/"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Metalliq"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name="Super Favourites"
+plugin="plugin.program.super.favourites"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/plugin.program.super.favourites.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://firestickplusmancomlu.com/Addon/auto%20cleanup%20addons/icon.png"
+fanart="http://firestickplusmancomlu.com/Addon/auto%20cleanup%20addons/fanart.jpg"
+adult="no"
+description="Kodi program addon"
+
+
+name="At The flix"
+plugin="plugin.video.AtTheFlix"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/plugin.video.AtTheFlix.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="https://kodiapps.com/charts/at-the-flix.png"
+fanart="http://firestickplusmancomlu.com/Addon/icon.png"
+adult="no"
+description="One Click and play"
+
+name="BOB"
+plugin="plugin.video.bob"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/plugin.video.bob.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://www.wirelesshack.org/wp-content/uploads/2017/05/BEST-WORKING-KODI-Video-Add-ons-June-2017-BOB.jpg"
+fanart="http://firestickplusmancomlu.com/Addon/icon.png"
+adult="no"
+description="all in one addon"
+
+
+name="Covenant"
+plugin="plugin.video.covenant"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/plugin.video.covenant.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://firestickplusmancomlu.com/Addon/auto%20cleanup%20addons/icon.png"
+fanart="http://firestickplusmancomlu.com/Addon/auto%20cleanup%20addons/fanart.jpg"
+adult="no"
+description="Movies and TV shows addon"
+
+
+name="Elysium"
+plugin="plugin.video.elysium"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/plugin.video.elysium.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://firestickplusmancomlu.com/backgrounds/how-to-install-elysium-on-kodi.jpg"
+fanart="http://firestickplusmancomlu.com/Addon/icon.png"
+adult="no"
+description="Movies and TV shows addon"
+
+
+
+name="Fantastic HD Movies"
+plugin="plugin.video.fantastichdmovies"
+url="http://fspmkodi.com/plugin.video.fantastichdmovies.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://firestickplusmancomlu.com/Addon/icon.png"
+fanart="http://firestickplusmancomlu.com/Addon/icon.png"
+adult="no"
+description="Fantastic HD Movies"
+
+
+
+name="Made in Canda IPTV"
+plugin="plugin.video."
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="https://kodiapps.com/charts/made-in-canada-iptv.png"
+fanart="http://firestickplusmancomlu.com/Addon/icon.png"
+adult="no"
+description="LIVE TV"
+
+
+name="Skynet"
+plugin="plugin.video.Skynet"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="https://kodiapps.com/charts/skynet.png"
+fanart="http://firestickplusmancomlu.com/Addon/icon.png"
+adult="no"
+description="all in one"
+
+
+name="Sports-Devil"
+plugin="plugin.video.SportsDevil"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/plugin.video.SportsDevil.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://www.wirelesshack.org/wp-content/uploads/2017/05/BEST-WORKING-KODI-Video-Add-ons-June-2017-Sports-Devil.jpg"
+fanart="http://firestickplusmancomlu.com/Addon/icon.png"
+adult="no"
+description="all sports addon"
+
+
+name="UK TURKS"
+plugin="plugin.video.ukturk"
+url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons/plugin.video.ukturk.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://www.wirelesshack.org/wp-content/uploads/2016/05/BEST-WORKING-KODI-Add-ons-June-2016.jpg"
+fanart="http://firestickplusmancomlu.com/Addon/icon.png"
+adult="no"
+description="all in one addon"
+
+
+
+
+
+

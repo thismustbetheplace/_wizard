@@ -1,0 +1,14 @@
+name="[COLOR gold]XYZ[/COLOR] Estuary 18 Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_theme.zip"
+icon="http://"
+fanart="http://"
+
+name="[COLOR gold]XYZ[/COLOR] Estuary 17 Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_theme.zip"
+icon="http://"
+fanart="http://"
+
+name="[COLOR gold]XYZ[/COLOR] Estuary 16 Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/16_theme.zip"
+icon="http://"
+fanart="http://"

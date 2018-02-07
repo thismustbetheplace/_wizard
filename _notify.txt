@@ -1,0 +1,77 @@
+1
+|||
+Welcome to the XYZ Wizard
+
+This is Andys new Maintenance Addon
+
+- You can install addons or a build
+- You can perform routine maintenence to keep Kodi running smooth
+
+Go into the Addon and select Install Programs.
+From there select azip, addon or if you want a build.
+Selecting a build will assist in future updates.
+
+
+THIS IS NOT AFFILIATED WITH KODI.COM
+This is an open source addon to
+assist with install 3rd paty addons.
+
+*This is also a repository called XYZ Wizard.
+
+# Blacklist
+
+
+plugin.program.xbmchub.notifications
+script.IPTVGuide
+script._IPTVGuide
+script._TVGuide
+plugin.video.covenant
+plugin.video.bob.unleashed
+plugin.video.MaverickTV
+plugin.video.rebirth
+
+metadata.hebmovies.wiz
+metadata.hebtv.thewiz
+Ninbora.Movies_Feeder
+Ninbora.Series_Feeder
+plugin.program.abeksis.notifications
+plugin.program.KodiBuildsIL
+plugin.program.logviewer
+plugin.program.senyorwizard
+plugin.program.ump
+plugin.video.AK-47
+plugin.video.CanTVLive
+plugin.video.filin.tv
+plugin.video.flix2kodi
+plugin.video.football.today
+plugin.video.gdrive
+plugin.video.gordon.ura.cz
+plugin.video.hellenic.tv
+plugin.video.htpt.gopro
+plugin.video.htpt.kids
+plugin.video.htpt.music
+plugin.video.israelive
+plugin.video.lubetube
+plugin.video.snooker
+plugin.video.sportsmix
+plugin.video.thewiz.kids
+plugin.video.thewiz.wall
+plugin.video.thewiz.wve.3david
+plugin.video.uwc
+plugin.video.woodrocket
+plugin.video.xbmcfilm
+program.AbeksisWizard
+repository.abeksis
+repository.donatelloandhybrid
+repository.filmkodi.com
+repository.hal9000
+repository.Halowrepo
+repository.htpt
+repository.husham.com
+repository.kodil
+repository.lambda
+repository.magnetic
+repository.movieshd
+repository.ToMeRepo
+repository.xbmc-israel
+repository.zeus
