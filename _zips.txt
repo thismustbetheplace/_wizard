@@ -1,6 +1,6 @@
 id="plugin.program.xyzwizard"
 version="0.0.1"
-zip="https://raw.githubusercontent.com/thismustbetheplace/_repo/master/_zips/plugin.program.xyzwizard/plugin.program.xyzwizard.zip"
+zip="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/plugin.program.xyzwizard/plugin.program.xyzwizard.zip"
 
 
 name="XYZ  18 Default Addons"
