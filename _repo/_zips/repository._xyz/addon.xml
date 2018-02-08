@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository._xyz" name="XYZ Repo" version="0.1" provider-name="¯\_(-_-)_/¯, Andy">
+        <extension point="xbmc.addon.repository">
+            <info compressed="false">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">XYZ Repository</summary>
+            <description lang="en">Download and install addons, repositories and backups of preconfigured apps and user settings.[CR]This is the source of my addons and used for automatic updates.</description>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>icon.png</screenshot>
+             </assets>
+            <news>Initial release</news>
+    </extension>
+    
+</addon>

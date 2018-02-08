@@ -1,4 +1,0 @@
-name="XYZ  Estuary 16 Jarvis Theme"
-url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/16_theme.zip"
-icon="http://"
-fanart="http://"

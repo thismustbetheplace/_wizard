@@ -1,7 +1,7 @@
 name="URL  Latest Kodi"
 section="yes"
 url="https://archive.org/download/LatestKodi_201707/latest%20kodi.txt"
-icon="http://"
+icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
 fanart="http://"
 adult="no"
 description="Latest Kodi"

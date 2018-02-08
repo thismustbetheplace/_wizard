@@ -1,4 +1,0 @@
-name="XYZ  Estuary 17 Krypton Theme"
-url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_theme.zip"
-icon="http://"
-fanart="http://"
