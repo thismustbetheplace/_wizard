@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.xyzwizard" name="XYZ Maintenance" version="0.0.1" provider-name="¯\_(-_-)_/¯, Andy">
+<addon id="plugin.program.xyzwizard" name="XYZ Maintenance" version="0.0.2" provider-name="^\_(-_-)_/^,Andy">
     <requires>
         <!-- 4.42 is api 19 and most need 25 -->
         <!-- Krypton 17 and up -->
@@ -16,48 +16,14 @@
       <provides>executable</provides>
     </extension>
     <extension point="xbmc.service" library="startup.py" start="startup" />
-    <!--
-    <extension point="xbmc.addon.repository" name="XYZ Maintenance">
-           <info compressed="false">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml</info>
-           <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml.md5</checksum>
-           <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/</datadir>
-    </extension>
-    -->
-        <extension point="xbmc.addon.repository" name="XYZ Maintenance">
-            <info compressed="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/</datadir>
-            <hashes>true</hashes>
-
-         <dir minversion="15.0.0">
-            <info compressed="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/</datadir>
-            <hashes>true</hashes>
-         </dir>
-         <dir minversion="16.0.0">
-            <info compressed="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/</datadir>
-            <hashes>true</hashes>
-         </dir>
-         <dir minversion="17.0.0">
-            <info compressed="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/</datadir>
-            <hashes>true</hashes>
-         </dir>
-         <dir minversion="18.0.0">
-            <info compressed="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/_zips/</datadir>
-            <hashes>true</hashes>
-         </dir>
-
+        <!--
+        <extension point="xbmc.addon.repository" name="XYZ Repo">
+            <info compressed="false">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/</datadir>
+            <hashes>false</hashes>
         </extension>
-
-
-
+        -->
     <!--
     <extension point="kodi.context.item">
       <menu id="kodi.core.main">
@@ -132,7 +98,7 @@
     </extension>
 </addon>
 
-    <addon id="repository._xyz" name="XYZ Repo" version="0.0.1" provider-name="\_(-_-)_/">
+    <addon id="repository._xyz" name="XYZ Repo" version="0.0.3" provider-name="^\_(-_-)_/^,Andy">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
