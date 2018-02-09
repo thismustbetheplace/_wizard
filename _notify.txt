@@ -1,25 +1,39 @@
 1
 |||
-Welcome to the XYZ Wizard
+                      [COLOR yellow]Welcome to the XYZ Wizard[/COLOR]
 
-This is Andys new Maintenance Addon
+            This is Andys new Maintenance Addon.
+            
+            Inside "Install Programs" menu you can install a zip or build to stay up to date if programs arent working properly.
+            
+            
+    - You can install kodi addons or a build
+    *i generally discourage builds by other people because they are often bloated with addons you wont use or that are intended for people in th UK.
+    
+    - You can install Android apks not found on the Google Playstore
+    
+    - You can perform routine maintenence to keep Kodi running smooth
+    
+    - You can Backup or Restore your Kodi addons and settings for when you redo your setup, or use on another device.
+    
+    
+    ** Fresh start?:
+    Go into the Addon and select Install Programs.
+    From there select a zip, addon or if you want a build.
+    Selecting a build will assist in future updates.
+    
+    
+    ****** If you used the TV Guide i made you will have to reinstall it.  Its now called  TV Guide Fullscreen - Cake Skin (script.tvguide.fullscreen.skin.cake)
 
-- You can install addons or a build
-- You can perform routine maintenence to keep Kodi running smooth
 
-Go into the Addon and select Install Programs.
-From there select azip, addon or if you want a build.
-Selecting a build will assist in future updates.
+    THIS IS NOT AFFILIATED WITH KODI.COM
+    This is an open source addon to
+    assist with install 3rd paty addons.
 
-
-THIS IS NOT AFFILIATED WITH KODI.COM
-This is an open source addon to
-assist with install 3rd paty addons.
-
-*This is also a repository called XYZ Wizard.
-
-# Blacklist
-
+    *This is also a repository called XYZ Wizard.
+    
+    
+# Blacklist for addons that are no longer maintained or deemed malicious.
 
 plugin.program.xbmchub.notifications
 script.IPTVGuide
@@ -36,7 +50,6 @@ Ninbora.Movies_Feeder
 Ninbora.Series_Feeder
 plugin.program.abeksis.notifications
 plugin.program.KodiBuildsIL
-plugin.program.logviewer
 plugin.program.senyorwizard
 plugin.program.ump
 plugin.video.AK-47
