@@ -1,14 +1,3 @@
-name="URL  Firestickplusman Addons"
-plugin="section"
-url="http://firestickplusmancomlu.com/wizard/Advanced%20wizard/addons.txt"
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
-icon="http://"
-fanart="http://"
-adult="yes"
-description="Menu Firestickplusman Addons.txt"
-
 
 name="Aftermath Wizard"
 plugin="plugin.program.aftermathwizard"
@@ -20,9 +9,6 @@ icon="http://aftermathwizard.net/wizard/icon.png"
 fanart="http://aftermathwizard.net/wizard/fanart.jpg"
 adult="no"
 description="Here is the correct way to setup the text file for the Addon Install for a direct install.  - Url being the direct link to the zip and repository, repositoryxml, and repositoryurl to default values. "
-
-
-
 
 
 name="IPTV Guide (Cake) from Direct Zip"

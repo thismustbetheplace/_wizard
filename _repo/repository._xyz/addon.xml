@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="repository._xyz" name="XYZ Repo" version="0.0.2" provider-name="^\_(-_-)_/^,Andy">
+    <addon id="repository._xyz" name="XYZ Repo" version="0.0.3" provider-name="^\_(-_-)_/^,Andy">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
