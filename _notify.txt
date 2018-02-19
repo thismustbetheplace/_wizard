@@ -98,43 +98,134 @@ repository.zeus
 
 
 
-# Addons
 
-name="IPTV Guide (Cake) from Direct Zip"
-plugin="script.tvguide.fullscreen.skin.cake"
-url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/script.tvguide.fullscreen.skin.cake/script.tvguide.fullscreen.skin.cake.zip"
-repository="none"
-repositoryxml="http://"
-repositoryurl="http://"
+
+
+# builds
+
+name="XYZ  18 Default Addons"
+version="0.0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
+gui="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_guisettings.zip"
+kodi="18.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
 icon="http://"
 fanart="http://"
-adult="no"
-description="IPTVGuide Cake for TVGFS"
+preview="http://"
+adult="No"
+description="XYZ Wizard Default Addons for Kodi Version 18 Leia"
 
-
-
-
-
-
-
-# Apks
-
-name="IPTV Subs"
-section="no"
-url="https://iptvsubs.is/android/iptvsubs.apk"
+name="XYZ  17 Default Addons"
+version="0.0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
+gui="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_guisettings.zip"
+kodi="17.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
 icon="http://"
 fanart="http://"
-adult="no"
-description="Test Apk"
+preview="http://"
+adult="No"
+description="XYZ Wizard Default Addons for Kodi Version 17 Kryptonite"
+
+name="XYZ  16 Default Addons"
+version="0.0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
+gui="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/16_guisettings.zip"
+kodi="16.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description="XYZ Wizard Default Addons for Kodi Version 16 Jarvis"
+
+
+
+name="XYZ  Repos"
+version="0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_repo.zip"
+gui="http://"
+kodi="0.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description="XYZ Repos needed for addon sources and updates"
+
+name="XYZ  Video"
+version="0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
+gui="http://"
+kodi="0.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description="XYZ Video Addons for streaming"
+
+name="XYZ  IPTV"
+version="0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_iptv.zip"
+gui="http://"
+kodi="0.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description="XYZ IPTV Addons for streaming LiveTV"
+
+name="XYZ  IPTV Subscriptions"
+version="0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_sub.zip"
+gui="http://"
+kodi="0.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description="XYZ IPTV Subscription Addons for streaming LiveTV that you pay a subscription"
+
+name="XYZ  Audio"
+version="0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_audio.zip"
+gui="http://"
+kodi="0.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description="XYZ Audio Addons"
+
+name="XYZ  Programs (ie Trakt)"
+version="0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_program.zip"
+gui="http://"
+kodi="0.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description="XYZ Program Addons like Trakt.  This is only really needd if you have an offline local media collection"
 
 
 
 
 
+# themes
 
+nametheme="test XYZ   Estuary 17 Krypton Tweaked Theme"
+urltheme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_theme.zip"
+icontheme="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
+fanarttheme="http://"
+adulttheme="no"
+descriptiontheme="Estuary 17 Krypton Theme with a few tweaks"
 
-
-# Theme
 
 name="XYZ   Estuary 18 Leia Tweaked Theme"
 url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_theme.zip"
@@ -156,37 +247,5 @@ icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-li
 fanart="http://"
 adult="no"
 description="Estuary 16 Jarvis Theme with a few tweaks"
-
-
-
-
-
-
-
-# Builds
-
-id="plugin.program.xyzwizard"
-version="0.0.2"
-zip="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/plugin.program.xyzwizard/plugin.program.xyzwizard.zip"
-
-versionupdate="0.0.2"
-zipupdate="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
-
-
-name="XYZ  18 Default Addons"
-version="0.0.1"
-url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
-gui="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_guisettings.zip"
-kodi="18.0"
-theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_theme.txt"
-icon="http://"
-fanart="http://"
-preview="http://"
-adult="No"
-description="XYZ Wizard Default Addons for Kodi Version 18 Leia"
-
-
-
-
 
 

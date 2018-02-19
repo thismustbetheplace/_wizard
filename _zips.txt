@@ -2,8 +2,6 @@ id="plugin.program.xyzwizard"
 version="0.0.2"
 zip="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/plugin.program.xyzwizard/plugin.program.xyzwizard.zip"
 
-versionupdate="0.0.2"
-zipupdate="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
 
 
 name="XYZ  18 Default Addons"
@@ -115,4 +113,5 @@ fanart="http://"
 preview="http://"
 adult="No"
 description="XYZ Program Addons like Trakt.  This is only really needd if you have an offline local media collection"
+
 
