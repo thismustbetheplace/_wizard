@@ -22,7 +22,7 @@
     
     
     ****** If you used the TV Guide i made you will have to reinstall it.  Its now called :
-      TV Guide Fullscreen - Cake Skin (script.tvguide.fullscreen.skin.cake)
+      TV Guide Fullscreen - Cake Skin (script.tvguide. fullscreen.skin.cake)
 
 
     THIS IS NOT AFFILIATED WITH KODI.COM
@@ -97,18 +97,7 @@ repository.zeus
 
 
 
-
-
-
-
 # themes
-
-nametheme="test XYZ   Estuary 17 Krypton Tweaked Theme"
-urltheme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_theme.zip"
-icontheme="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
-fanarttheme="http://"
-adulttheme="no"
-descriptiontheme="Estuary 17 Krypton Theme with a few tweaks"
 
 
 name="XYZ   Estuary 18 Leia Tweaked Theme"
