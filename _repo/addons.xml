@@ -154,7 +154,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.cake" name="TV Guide Fullscreen - Cake Skin" version="0.1.0" provider-name="^\_(-_-)_/^,Andy,primaeval">
+<addon id="script.tvguide.fullscreen.skin.cake" name="TV Guide Fullscreen - Cake Skin" version="0.1.0" provider-name="andy,primaeval">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <!--<import addon="script.tvguide.fullscreen" version="0.0.321"/>-->

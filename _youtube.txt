@@ -13,10 +13,3 @@ icon="https://"
 fanart="http://"
 description="Guide to installing a 3rd party addon in Kodi"
 
-name="Aftermath Wizard Guides"
-section="yes"
-url="http://aftermathwizard.net/repo/youtube2.txt"
-icon="http://"
-fanart="http://"
-description="Guide for setting up Aftermath"
-

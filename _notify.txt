@@ -1,14 +1,12 @@
 1
 |||
-                      [COLOR yellow]Welcome to the XYZ Wizard[/COLOR]
-
-            This is Andys new Maintenance Addon.
+            [COLOR yellow]This is Andys new Maintenance Addon.[/COLOR]
             
             Inside "Install Programs" menu you can install a zip or build to stay up to date if programs arent working properly.
             
             
     - You can install kodi addons or a build
-    *i generally discourage builds by other people because they are often bloated with addons you wont use or that are intended for people in th UK.
+    *i generally discourage builds because they are often bloated with addons you wont use or that are intended for people in other countries.
     
     - You can install Android apks not found on the Google Playstore
     
@@ -23,7 +21,8 @@
     Selecting a build will assist in future updates.
     
     
-    ****** If you used the TV Guide i made you will have to reinstall it.  Its now called  TV Guide Fullscreen - Cake Skin (script.tvguide.fullscreen.skin.cake)
+    ****** If you used the TV Guide i made you will have to reinstall it.  Its now called :
+      TV Guide Fullscreen - Cake Skin (script.tvguide.fullscreen.skin.cake)
 
 
     THIS IS NOT AFFILIATED WITH KODI.COM
@@ -31,6 +30,11 @@
     assist with install 3rd paty addons.
 
     *This is also a repository called XYZ Wizard.
+    
+    
+    
+    
+    
     
     
 # Blacklist for addons that are no longer maintained or deemed malicious.
@@ -88,3 +92,101 @@ repository.movieshd
 repository.ToMeRepo
 repository.xbmc-israel
 repository.zeus
+
+
+
+
+
+
+# Addons
+
+name="IPTV Guide (Cake) from Direct Zip"
+plugin="script.tvguide.fullscreen.skin.cake"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/script.tvguide.fullscreen.skin.cake/script.tvguide.fullscreen.skin.cake.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="IPTVGuide Cake for TVGFS"
+
+
+
+
+
+
+
+# Apks
+
+name="IPTV Subs"
+section="no"
+url="https://iptvsubs.is/android/iptvsubs.apk"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Test Apk"
+
+
+
+
+
+
+
+
+# Theme
+
+name="XYZ   Estuary 18 Leia Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_theme.zip"
+icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
+fanart="http://"
+adult="no"
+description="Estuary 18 Leia Theme with a few tweaks"
+
+name="XYZ   Estuary 17 Krypton Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_theme.zip"
+icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
+fanart="http://"
+adult="no"
+description="Estuary 17 Krypton Theme with a few tweaks"
+
+name="XYZ   Estuary 16 Jarvis Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/16_theme.zip"
+icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
+fanart="http://"
+adult="no"
+description="Estuary 16 Jarvis Theme with a few tweaks"
+
+
+
+
+
+
+
+# Builds
+
+id="plugin.program.xyzwizard"
+version="0.0.2"
+zip="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/plugin.program.xyzwizard/plugin.program.xyzwizard.zip"
+
+versionupdate="0.0.2"
+zipupdate="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
+
+
+name="XYZ  18 Default Addons"
+version="0.0.1"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
+gui="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_guisettings.zip"
+kodi="18.0"
+theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_theme.txt"
+icon="http://"
+fanart="http://"
+preview="http://"
+adult="No"
+description="XYZ Wizard Default Addons for Kodi Version 18 Leia"
+
+
+
+
+
+
