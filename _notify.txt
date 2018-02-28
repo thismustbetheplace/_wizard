@@ -38,67 +38,13 @@
     
     
 # Blacklist for addons that are no longer maintained or deemed malicious.
-
-plugin.program.xbmchub.notifications
 script.IPTVGuide
 script._IPTVGuide
 script._TVGuide
-plugin.video.covenant
-plugin.video.bob.unleashed
-plugin.video.MaverickTV
-plugin.video.rebirth
-
-metadata.hebmovies.wiz
-metadata.hebtv.thewiz
-Ninbora.Movies_Feeder
-Ninbora.Series_Feeder
-plugin.program.abeksis.notifications
-plugin.program.KodiBuildsIL
-plugin.program.senyorwizard
-plugin.program.ump
-plugin.video.AK-47
-plugin.video.CanTVLive
-plugin.video.filin.tv
-plugin.video.flix2kodi
-plugin.video.football.today
-plugin.video.gdrive
-plugin.video.gordon.ura.cz
-plugin.video.hellenic.tv
-plugin.video.htpt.gopro
-plugin.video.htpt.kids
-plugin.video.htpt.music
-plugin.video.israelive
-plugin.video.lubetube
-plugin.video.snooker
-plugin.video.sportsmix
-plugin.video.thewiz.kids
-plugin.video.thewiz.wall
-plugin.video.thewiz.wve.3david
-plugin.video.uwc
-plugin.video.woodrocket
-plugin.video.xbmcfilm
-program.AbeksisWizard
-repository.abeksis
-repository.donatelloandhybrid
-repository.filmkodi.com
-repository.hal9000
-repository.Halowrepo
-repository.htpt
-repository.husham.com
-repository.kodil
-repository.lambda
-repository.magnetic
-repository.movieshd
-repository.ToMeRepo
-repository.xbmc-israel
-repository.zeus
-
-
 
 
 
 # themes
-
 
 name="XYZ   Estuary 18 Leia Tweaked Theme"
 url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_theme.zip"
@@ -120,44 +66,5 @@ icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-li
 fanart="http://"
 adult="no"
 description="Estuary 16 Jarvis Theme with a few tweaks"
-
-
-
-
-name="XYZ  18 Default"
-version="0.0.1"
-url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
-gui="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_guisettings.zip"
-kodi="18.0"
-theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
-icon="http://"
-fanart="http://"
-preview="http://"
-adult="No"
-description="XYZ Wizard Default Addons for Kodi Version 18 Leia"
-
-name="XYZ  17 Default"
-version="0.0.1"
-url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
-gui="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_guisettings.zip"
-kodi="17.0"
-theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
-icon="http://"
-fanart="http://"
-preview="http://"
-adult="No"
-description="XYZ Wizard Default Addons for Kodi Version 17 Kryptonite"
-
-name="XYZ  16 Default"
-version="0.0.1"
-url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
-gui="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/16_guisettings.zip"
-kodi="16.0"
-theme="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_notify.txt"
-icon="http://"
-fanart="http://"
-preview="http://"
-adult="No"
-description="XYZ Wizard Default Addons for Kodi Version 16 Jarvis"
 
 
