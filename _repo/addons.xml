@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.xyzwizard" name="XYZ Maintenance" version="0.0.2" provider-name="^\_(-_-)_/^,Andy">
+<addon id="plugin.program.xyzwizard" name="XYZ Maintenance" version="0.0.1" provider-name="^\_(-_-)_/^,Andy">
     <requires>
         <!-- 4.42 is api 19 and most need 25 -->
         <!-- Krypton 17 and up -->
