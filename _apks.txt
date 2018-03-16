@@ -1,10 +1,20 @@
+
+name="[COLOR green]=Menu=[/COLOR] Mavericktv"
+section="yes"
+url="http://mavericktv.net/wiz/apk.txt"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Mavericktv Apk"
+
+
 name="IPTV Subs"
 section="no"
 url="https://iptvsubs.is/android/iptvsubs.apk"
 icon="http://"
 fanart="http://"
 adult="no"
-description="Test Apk"
+description="IPTV Subs"
 
 name="VaderTV"
 section="no"
@@ -23,7 +33,6 @@ fanart="http://"
 adult="No"
 section="no"
 description="Find free video streams online and enjoy them on your Android phone or tablet: Mobdro constantly searches the web for the best free video streams and brings them to your device."
-
 
 
 name="USTV Now"
@@ -46,7 +55,6 @@ section="no"
 description="Show Box is a free movies and TV shows streaming app for the Android. It is regarded as one of the best free Android apps as it allows users to watch movies in HD for free. Show Box is not available in the Google Play store so users will need to sideload it to the device. The tutorial will show you how-to install Show Box to an Android (phone or tablet) or Android based (Kindle Fire, BlackBerry, etc.) device."
 
 
-
 name="NBC Sports Live Extra"
 url="https://appraw.com/dl/4pHQqCxVT7"
 icon="http://"
@@ -54,7 +62,6 @@ fanart="http://"
 adult="No"
 section="no"
 description="Apk"
-
 
 
 name="Pluto TV"

@@ -17,14 +17,34 @@
     </extension>
     <extension point="xbmc.service" library="startup.py" start="startup" />
 
-    <!-- -->
-    <extension point="xbmc.addon.repository" name="XYZ Repo">
+    <!--
+    <extension point="xbmc.addon.repository">
         <info compressed="false">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/</datadir>
         <hashes>false</hashes>
     </extension>
-    <!-- -->
+    -->
+
+    <extension point="xbmc.addon.repository" name="XYZ Maintenance">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/</datadir>
+        </dir>
+        <!--
+        <dir minversion="16.0.0">
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/jarvis/</datadir>
+        </dir>
+        <dir minversion="17.0.0">
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
+        </dir>
+        -->
+    </extension>
 
 
     <!--
@@ -60,9 +80,9 @@
     </extension>
     -->
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR orange]XYZ[/COLOR] allows you to install addons, apks and perform basic maintenance like deleting system files that decrease performance over time.</summary>
-        <description lang="en">[COLOR orange]XYZ[/COLOR] Wizard and Maintenance</description>
-        <disclaimer lang="en">Kodi 17 Krypton compatible KEEP OFF OF YOUTUBE Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</disclaimer>
+        <summary>[COLOR orange]XYZ[/COLOR] allows you to install addons, apks and perform basic maintenance like deleting system files that decrease performance over time.</summary>
+        <description>[COLOR orange]XYZ[/COLOR] Wizard and Maintenance</description>
+        <disclaimer>Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</disclaimer>
         <forum>http://aftermathwizard.net/FAQS/</forum>
         <source>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/plugin.program.xyzwizard/</source>
         <language>en</language>
@@ -75,8 +95,8 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
             <screenshot>resources/media/screenshot-01.png</screenshot>
-            <screenshot>resources/media/screenshot-02.png</screenshot>
-            <screenshot>resources/media/screenshot-03.png</screenshot>
+            <!--<screenshot>resources/media/screenshot-02.png</screenshot>
+            <screenshot>resources/media/screenshot-03.png</screenshot>-->
         </assets>
     </extension>
 
@@ -122,6 +142,32 @@
             <description>Download and install addons, repositories and backups of preconfigured apps and user settings.[CR]This is the source of my addons and used for automatic updates.</description>
             <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.18.4.1"
+       provider-name="kennethreitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.6"/>
+    <import addon="script.module.certifi" version="2017.07.27.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python HTTP for Humans</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/requests/requests</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/beenje/script.module.requests</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
 </addon>
 
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
