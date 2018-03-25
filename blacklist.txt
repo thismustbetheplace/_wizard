@@ -1,0 +1,5 @@
+plugin.program.xbmchub.notifications
+script.IPTVGuide
+script._IPTVGuide
+script._TVGuide
+plugin.video.MaverickTV

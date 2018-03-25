@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.xyzwizard" name="XYZ Maintenance" version="0.0.1" provider-name="^\_(-_-)_/^,Andy">
+<addon id="plugin.program.xyzwizard" name="XYZ Wizard" version="0.0.2" provider-name="^\_(-_-)_/^,Andy">
     <requires>
         <!-- 4.42 is api 19 and most need 25 -->
         <!-- Krypton 17 and up -->
@@ -25,14 +25,13 @@
         <hashes>false</hashes>
     </extension>
     -->
-
+    <!--
     <extension point="xbmc.addon.repository" name="XYZ Maintenance">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/</datadir>
         </dir>
-        <!--
         <dir minversion="16.0.0">
             <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
             <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
@@ -43,9 +42,8 @@
             <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
         </dir>
-        -->
     </extension>
-
+    -->
 
     <!--
     <extension point="kodi.context.item">
@@ -80,8 +78,8 @@
     </extension>
     -->
     <extension point="xbmc.addon.metadata">
-        <summary>[COLOR orange]XYZ[/COLOR] allows you to install addons, apks and perform basic maintenance like deleting system files that decrease performance over time.</summary>
-        <description>[COLOR orange]XYZ[/COLOR] Wizard and Maintenance</description>
+        <summary>Perform a variety of Kodi Maintenance and installation tasks.  Addons, Builds, Apks, Backupup\Restore zips, Cleaning, advancedsettings.xml, etc.</summary>
+        <description>[COLOR orange]XYZ Wizard[/COLOR] allows you to install addons, apks and perform basic maintenance like deleting files that decrease performance over time.</description>
         <disclaimer>Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</disclaimer>
         <forum>http://aftermathwizard.net/FAQS/</forum>
         <source>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/plugin.program.xyzwizard/</source>
@@ -92,7 +90,7 @@
         <email></email>
         <news>Changes: Install Kodi addons.  Based on aftermathwizard.net v0.1.7a</news>
         <assets>
-            <icon>icon.png</icon>
+            <icon>icon.gif</icon>
             <fanart>fanart.jpg</fanart>
             <screenshot>resources/media/screenshot-01.png</screenshot>
             <!--<screenshot>resources/media/screenshot-02.png</screenshot>

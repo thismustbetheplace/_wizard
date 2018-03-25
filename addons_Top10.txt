@@ -1,0 +1,36 @@
+name="[COLOR green]=Top10=[/COLOR]"
+plugin="section"
+url="http://"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Top10"
+
+
+
+
+################################################################################ repository.griffin   http://repo.mrblamo.xyz/ 
+name="[COLOR grey]==REPO========[/COLOR]"
+plugin="griffin"
+url="https://bitbucket.org/griffin303/griffin/raw/master/zips/griffin/"
+repository="griffin"
+repositoryxml="https://bitbucket.org/griffin303/griffin/raw/master/zips/addons.xml"
+repositoryurl="https://bitbucket.org/griffin303/griffin/raw/master/zips/griffin/"
+icon="https://bitbucket.org/griffin303/griffin/raw/master/zips/griffin/icon.png"
+fanart="http://"
+adult="no"
+description="REPO"
+
+name="Uranus"
+plugin="plugin.video.uranus"
+url="https://bitbucket.org/griffin303/griffin/raw/master/zips/plugin.video.uranus/"
+repository="griffin"
+repositoryxml="https://bitbucket.org/griffin303/griffin/raw/master/zips/addons.xml"
+repositoryurl="https://bitbucket.org/griffin303/griffin/raw/master/zips/griffin/"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon"
