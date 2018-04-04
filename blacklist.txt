@@ -1,3 +1,0 @@
-script.IPTVGuide
-script._IPTVGuide
-script._TVGuide

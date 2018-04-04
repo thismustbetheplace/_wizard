@@ -1,7 +1,8 @@
 1
 |||
-            [COLOR yellow]This is Andys new Maintenance Addon.[/COLOR]
+            [COLOR yellow]Maintenance Addon[/COLOR]
             
+            WIP
             Inside "Install Programs" menu you can install a zip or build to stay up to date if programs arent working properly.
             
             
@@ -22,7 +23,7 @@
     
     
     ****** If you used the TV Guide i made you will have to reinstall it.  Its now called :
-      TV Guide Fullscreen - Cake Skin (script.tvguide. fullscreen.skin.cake)
+      TV Guide Fullscreen - Cake Skin
 
 
     THIS IS NOT AFFILIATED WITH KODI.COM
@@ -31,3 +32,33 @@
 
     *This is also a repository called XYZ Wizard.
     
+    
+    
+#BLACKLIST
+script.IPTVGuide
+script._IPTVGuide
+script._TVGuide
+
+
+#THEMES
+name="Estuary 18 Leia Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_theme.zip"
+icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
+fanart="http://"
+adult="no"
+description="Estuary 18 Leia Theme with a few tweaks"
+
+name="Estuary 17 Krypton Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_theme.zip"
+icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
+fanart="http://"
+adult="no"
+description="Estuary 17 Krypton Theme with a few tweaks"
+
+name="Estuary 16 Jarvis Tweaked Theme"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/16_theme.zip"
+icon="https://upload.wikimedia.org/wikipedia/commons/2/25/Kodi-logo-Thumbnail-light-transparent.png"
+fanart="http://"
+adult="no"
+description="Estuary 16 Jarvis Theme with a few tweaks"
+
