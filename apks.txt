@@ -70,5 +70,5 @@ icon="http://"
 fanart="http://"
 adult="No"
 section="no"
-description="What Is Pluto TV?
+description="What Is Pluto TV?"
 
