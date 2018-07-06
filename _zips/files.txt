@@ -1,0 +1,246 @@
+1
+|||
+            [COLOR yellow]Maintenance Addon[/COLOR]
+            
+            WIP
+            Inside "Install Programs" menu you can install a zip or build to stay up to date if programs arent working properly.
+            
+            
+    - You can install kodi addons or a build
+    *i generally discourage builds because they are often bloated with addons you wont use or that are intended for people in other countries.
+    
+    - You can install Android apks not found on the Google Playstore
+    
+    - You can perform routine maintenence to keep Kodi running smooth
+    
+    - You can Backup or Restore your Kodi addons and settings for when you redo your setup, or use on another device.
+    
+    
+    ** Fresh start?:
+    Go into the Addon and select Install Programs.
+    From there select a zip, addon or if you want a build.
+    Selecting a build will assist in future updates.
+    
+    
+    ****** If you used the TV Guide i made you will have to reinstall it.  Its now called :
+      TV Guide Fullscreen - Cake Skin
+
+
+    THIS IS NOT AFFILIATED WITH KODI.COM
+    This is an open source addon to
+    assist with install 3rd paty addons.
+
+    *This is also a repository called XYZ Wizard.
+    
+    
+    
+    
+name="Repos"
+plugin="buildpack"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_repo.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+name="Video Addons"
+plugin="buildpack"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_video.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+name="IPTV Addons"
+plugin="buildpack"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_iptv.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+name="Subscription Addons"
+plugin="buildpack"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_sub.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+name="Audio Addons"
+plugin="buildpack"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_audio.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+name="Program Addons"
+plugin="buildpack"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/addons_program.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+
+name="TV Guide Fullscreen - Cake Skin"
+plugin="script.tvguide.fullscreen.skin.cake"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/script.tvguide.fullscreen.skin.cake/"
+repository="repository._xyz"
+repositoryxml="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml"
+repositoryurl="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/repository._xyz/"
+icon="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/script.tvguide.fullscreen.skin.cake/icon.png"
+fanart="http://"
+adult="no"
+description="IPTVGuide Cake skin for TVGFS"
+
+
+name="TV Guide Fullscreen 16"
+plugin="script.tvguide.fullscreen"
+url="https://raw.githubusercontent.com/primaeval/repository.primaeval/master/jarvis/script.tvguide.fullscreen/"
+repository="repository.primaeval"
+repositoryxml="https://github.com/primaeval/repository.primaeval/raw/master/primaeval-addons.xml"
+repositoryurl="https://github.com/primaeval/repository.primaeval/raw/master/zips/repository.primaeval/"
+icon="https://raw.github.com/primaeval/repository.primaeval/master/jarvis/script.tvguide.fullscreen/icon.png"
+fanart="http://"
+adult="no"
+description="Addon"
+
+
+
+name="Estuary 18 Leia Tweaked Theme"
+plugin="skin"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/18_theme.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+
+name="Estuary 17 Krypton Tweaked Theme"
+plugin="skin"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/17_theme.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+
+name="Estuary 16 Jarvis Tweaked Theme"
+plugin="skin"
+url="https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_zips/16_theme.zip"
+repository="none"
+repositoryxml="http://"
+repositoryurl="http://"
+icon="http://"
+fanart="http://"
+adult="no"
+description="Addon Bundle"
+
+
+
+
+
+
+
+
+
+
+
+
+
+name="IPTV Subs"
+section="no"
+url="https://iptvsubs.is/android/iptvsubs.apk"
+icon="http://"
+fanart="http://"
+adult="no"
+description="IPTV Subs"
+
+name="VaderTV"
+section="no"
+url="http://vaderstream.com/resources/vaders-v1.0.2.apk"
+icon="http://vaderstream.com/resources/kodi.png"
+fanart="http://"
+adult="no"
+description="VaderTV Apk"
+
+
+name="MOBDRO"
+section="no"
+url="https://www.mobdro.to/mobdro.apk"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Find free video streams online and enjoy them on your Android phone or tablet: Mobdro constantly searches the web for the best free video streams and brings them to your device."
+
+
+name="USTV Now"
+section="no"
+url="http://bit.ly/2rOTS04"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="USTV allows you to watch many free United State television channels on your Android smartphone/tablet.
+
+
+name="ShowBox"
+section="no"
+url="http://showboxappdownloads.com/wp-content/uploads/2017/06/Showbox%204.920.apk"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Show Box is a free movies and TV shows streaming app for the Android. It is regarded as one of the best free Android apps as it allows users to watch movies in HD for free. Show Box is not available in the Google Play store so users will need to sideload it to the device. The tutorial will show you how-to install Show Box to an Android (phone or tablet) or Android based (Kindle Fire, BlackBerry, etc.) device."
+
+
+name="NBC Sports Live Extra"
+url="https://appraw.com/dl/4pHQqCxVT7"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="Apk"
+
+
+name="Pluto TV"
+section="no"
+url="http://bit.ly/2t83wzB"
+icon="http://"
+fanart="http://"
+adult="No"
+section="no"
+description="What Is Pluto TV?"
+
+
+
+
+
+
