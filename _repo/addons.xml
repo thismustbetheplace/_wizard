@@ -169,23 +169,20 @@
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.cake" name="TV Guide Fullscreen - Cake Skin" version="0.0.6" provider-name="andy,primaeval">
+<addon id="script.tvguide.fullscreen.skin.cake" name="TV Guide Fullscreen - Cake Skin" version="0.0.7" provider-name="Andy,primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <!--<import addon="xbmc.python" version="2.25.0"/>-->
         <!--<import addon="script.tvguide.fullscreen"/>-->
     </requires>
 
-    <!-- default minimal settings  - can delete settings.xml and swift2 -->
     <extension point="xbmc.python.script" library="skin.py"/>
-
-    <!-- used to run swift2 ini and settings.xml  -->
     <!--
     <extension point="xbmc.python.pluginsource" library="skin.py">
         <provides>executable</provides>
     </extension>
     -->
-
+    <!--
     <extension point="xbmc.addon.repository" name="Primaeval">
             <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
             <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
@@ -202,11 +199,10 @@
             <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton</datadir>
         </dir>
     </extension>
-
-
+    -->
     <extension point="xbmc.addon.metadata">
-        <description lang="en">TVGuide Fullscreen skin</description>
-        <disclaimer lang="en">Skin and ini players</disclaimer>
+        <description lang="en">TVGuide Fullscreen Skin</description>
+        <disclaimer lang="en">TVGFS Skin with extra funtions.</disclaimer>
         <language></language>
         <platform>all</platform>
         <license>GPLv2</license>
@@ -214,19 +210,17 @@
         <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
         <website></website>
         <email>primaeval</email>
-        <!-- <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart> -->
-        <!-- -->
+        <news>
+- Added variables and extra functions</news>
         <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/skins/Cake/media/screenshots/screenshot-01.png</screenshot>
-            <screenshot>resources/skins/Cake/media/screenshots/screenshot-02.png</screenshot>
-            <screenshot>resources/skins/Cake/media/screenshots/screenshot-03.png</screenshot>
-            <screenshot>resources/skins/Cake/media/screenshots/screenshot-04.png</screenshot>
-            <screenshot>resources/skins/Cake/media/screenshots/screenshot-05.png</screenshot>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+            <screenshot>resources/media/screenshot-01.png</screenshot>
+            <screenshot>resources/media/screenshot-02.png</screenshot>
+            <screenshot>resources/media/screenshot-03.png</screenshot>
+            <screenshot>resources/media/screenshot-04.png</screenshot>
+            <screenshot>resources/media/screenshot-05.png</screenshot>
         </assets>
-        <!-- -->
     </extension>
 </addon>
 
