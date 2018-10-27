@@ -127,31 +127,6 @@
 
 </addon>
 
-<addon id="repository.primaeval"
-        name="primaeval's beta dev repository"
-        version="0.0.2"
-        provider-name="primaeval">
-    <requires>
-        <import addon="xbmc.addon" version="16.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository"
-        name="primaeval's beta dev repository">
-        <dir minversion="16.0.0">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/jarvis/</datadir>
-        </dir>
-        <dir minversion="17.0.0">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-    </extension>
-</addon>
-
     <addon id="repository._xyz" name="XYZ Repo" version="0.0.3" provider-name="^\_(-_-)_/^,Andy">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -169,13 +144,12 @@
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.cake" name="TV Guide Fullscreen - Cake Skin" version="0.0.7" provider-name="Andy,primaeval">
+<addon id="script.tvguide.fullscreen.skin.cake" name="TV Guide Fullscreen - Cake Skin" version="0.0.8" provider-name="Andy,primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <!--<import addon="xbmc.python" version="2.25.0"/>-->
         <!--<import addon="script.tvguide.fullscreen"/>-->
     </requires>
-
     <extension point="xbmc.python.script" library="skin.py"/>
     <!--
     <extension point="xbmc.python.pluginsource" library="skin.py">
@@ -200,6 +174,41 @@
         </dir>
     </extension>
     -->
+    <!--
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+          <item library="skin.py">
+            <label>Log</label>
+            <visible>true</visible>
+          </item>
+
+            <item library="context.py">
+                <label>Mark as watched again</label>
+                <visible>!Skin.HasSetting(disablecontext:service.tweak.lastplayed) + [StringCompare(ListItem.DBTYPE, movie) | StringCompare(ListItem.DBTYPE, episode) | StringCompare(ListItem.DBTYPE, musicvideo) | String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)] + Integer.IsGreater(ListItem.PlayCount, 0)</visible>
+            </item>
+
+        </menu>
+    </extension>
+    -->
+    <!--
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.manage">
+            <item library="context.py">
+                <label>Mark as watched again</label>
+                <visible>!Skin.HasSetting(disablecontext:service.tweak.lastplayed) + [StringCompare(ListItem.DBTYPE, movie) | StringCompare(ListItem.DBTYPE, episode) | StringCompare(ListItem.DBTYPE, musicvideo) | String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)] + Integer.IsGreater(ListItem.PlayCount, 0)</visible>
+            </item>
+            <item library="context_remove.py">
+                <label>Remove one watch count</label>
+                <visible>!Skin.HasSetting(disablecontext:service.tweak.lastplayed) + [StringCompare(ListItem.DBTYPE, movie) | StringCompare(ListItem.DBTYPE, episode) | StringCompare(ListItem.DBTYPE, musicvideo) | String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)] + Integer.IsGreater(ListItem.PlayCount, 1)</visible>
+            </item>
+            <item library="context_clearresume.py">
+                <label>Clear resume status</label>
+                <visible>!Skin.HasSetting(disablecontext:service.tweak.lastplayed) + [StringCompare(ListItem.DBTYPE, movie) | StringCompare(ListItem.DBTYPE, episode) | StringCompare(ListItem.DBTYPE, musicvideo) | String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)] + ListItem.IsResumable</visible>
+            </item>
+        </menu>
+    </extension>
+    -->
+
     <extension point="xbmc.addon.metadata">
         <description lang="en">TVGuide Fullscreen Skin</description>
         <disclaimer lang="en">TVGFS Skin with extra funtions.</disclaimer>
@@ -210,8 +219,7 @@
         <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
         <website></website>
         <email>primaeval</email>
-        <news>
-- Added variables and extra functions</news>
+        <news>Added variables and extra functions</news>
         <assets>
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
@@ -579,7 +587,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.18" version="2.0.9" name="Estuary 18  ([COLOR yellow]MOD[/COLOR])" provider-name="Andy, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.18" version="2.0.13.1" name="Estuary 18  ([COLOR yellow]MOD[/COLOR])" provider-name="Andy,phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 	</requires>
@@ -678,7 +686,7 @@
 		<description lang="sk_SK">Estuary je predvolený vzhľad pre Kodi 17.0 a vyššie. Pokúša sa byť pre prvotných používateľov Kodi jednoduchým na pochopenie a používanie.</description>
 		<description lang="sr_RS">Estuary је подразумевана маска за Kodi 17.0 и изнад. Покушава да буде једноставан за разумевање и коришћење новим корисницима Kodi-ја.</description>
 		<description lang="sr_RS@latin">Estuary je podrazumevana maska za Kodi 17.0 i iznad. Pokušava da bude jednostavan za razumevanje i korišćenje novim korisnicima Kodija.</description>
-		<description lang="sv_SE">Estuary är standardskal för Kodi 17.0 och uppåt. Det försöker att vara lättförståeligt och användarvänligt för förstagångsanvändare av Kodi.</description>
+		<description lang="sv_SE">Estuary är standardskalet för Kodi 17.0 och uppåt. Det är utformat för att vara lättförståeligt och användarvänligt för förstagångsanvändare av Kodi.</description>
 		<description lang="szl">Estuary je wychodnōm skōrōm Kodi dlŏ wersyje 17.0 i dalszych. Prōbuje być proste dlŏ używŏczōw, dlŏ kerych Kodi je nowe</description>
 		<description lang="th_TH">Estuary คือหน้าตาเริ่มต้นของ Kodi 17.0 และสูงกว่า เป็นความพยายามที่จะทำให้ง่ายสำหรับผู้ใช้ Kodi ในครั้งแรก ที่จะเข้าใจและใช้งาน</description>
 		<description lang="tr_TR">Estuary Kodi 17.0 ve yukarısı için varsayılan dış görünümdür. İlk kez Kodi kullananlar için anlaşılması ve kullanımı kolaydır.</description>
@@ -689,6 +697,7 @@
 		<disclaimer lang="bg_BG">Estuary е стандартният облик на Kodi. Премахването му може да предизвика проблеми</disclaimer>
 		<disclaimer lang="ca_ES">Estuary és l'aparença predeterminada de Kodi, si s'elimina pot causar problemes.</disclaimer>
 		<disclaimer lang="cs_CZ">Estuary je výchozí vzhled pro Kodi, jeho odebrání může způsobit problémy</disclaimer>
+		<disclaimer lang="cy_GB">Estuary yw croen diofyn Kodi. Efallai bydd ei dynnu yn achosi problemau</disclaimer>
 		<disclaimer lang="da_DK">Estuary er standard  brugerfladen. Fjernes det kan der opstå problemer.</disclaimer>
 		<disclaimer lang="de_DE">Estuary ist der Standardskin von Kodi. Ein Entfernen des Skins kann Probleme verursachen.</disclaimer>
 		<disclaimer lang="el_GR">Το Estuary είναι η προεπιλεγμένη αμφίεση για το Kodi. Η αφαίρεσή του μπορεί να δημιουργήσει προβλήματα.</disclaimer>
@@ -722,7 +731,7 @@
 		<disclaimer lang="sk_SK">Estuary je predvolený vzhľad pre Kodi, jeho odstránenie môže spôsobiť problémy</disclaimer>
 		<disclaimer lang="sr_RS">Estuary је подразумевана маска за Kodi, уклањање може изазвати проблеме</disclaimer>
 		<disclaimer lang="sr_RS@latin">Estuary je podrazumevana maska za Kodi, uklanjanje može izazvati probleme</disclaimer>
-		<disclaimer lang="sv_SE">Estuary är standardskalet för Kodi, om du tar bort den kan det orsaka problem</disclaimer>
+		<disclaimer lang="sv_SE">Estuary är Kodis standardskal. Om du tar bort det kan det orsaka problem.</disclaimer>
 		<disclaimer lang="szl">Estuary je wychodnōm skōrōm Kodi, jij uchrōniynie może sprŏwiać niyprzileżytości</disclaimer>
 		<disclaimer lang="th_TH">Estuary เป็นหน้าตาเริ่มต้นสำหรับ Kodi, การลบมัน อาจทำให้เกิดปัญหา</disclaimer>
 		<disclaimer lang="tr_TR">Estuary Kodi için varsayılan dış görünümdür, kaldırmak sorunlara yol açabilir</disclaimer>
