@@ -33,15 +33,14 @@
     </extension>
     <extension point="xbmc.service" library="startup.py" start="startup" />
 
-    <!--
     <extension point="xbmc.addon.repository">
         <info compressed="false">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/</datadir>
         <hashes>false</hashes>
     </extension>
-    -->
-    <!-- -->
+
+    <!--
     <extension point="xbmc.addon.repository" name="XYZ Wizard">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/thismustbetheplace/_wizard/master/_repo/addons.xml</info>
@@ -66,11 +65,8 @@
             <checksum>https://github.com/primaeval/repository.primaeval/raw/master/leia/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/leia</datadir>
         </dir>
-        <!-- -->
-
-
     </extension>
-    <!--  -->
+    -->
 
     <!--
     <extension point="kodi.context.item">
