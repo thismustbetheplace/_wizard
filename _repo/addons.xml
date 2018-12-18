@@ -146,64 +146,42 @@
         <!--<import addon="xbmc.python" version="2.25.0"/>-->
         <!--<import addon="script.tvguide.fullscreen"/>-->
     </requires>
-    <extension point="xbmc.python.script" library="skin.py"/>
     <!--
-    <extension point="xbmc.python.pluginsource" library="skin.py">
+    <extension point="xbmc.python.pluginsource" library="installer.py">
         <provides>executable</provides>
     </extension>
     -->
-    <!--
-    <extension point="xbmc.addon.repository" name="Primaeval">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton</datadir>
-        <hashes>false</hashes>
-        <dir minversion="16.0.0">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/jarvis</datadir>
-        </dir>
-        <dir minversion="17.0.0">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton</datadir>
-        </dir>
-    </extension>
-    -->
-    <!--
+    <!--<extension point="xbmc.python.script" library="installer.py"/>-->
+
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
-          <item library="skin.py">
-            <label>Log</label>
-            <visible>true</visible>
+          <item library="installer.py">
+            <label>[COLOR grey]TVGFS SKIN[/COLOR] [COLOR dimgrey]•[/COLOR] Cake</label>
+            <!--<visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen) | !Window.IsVisible(addonbrowser)</visible>-->
+            <visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen)</visible>
           </item>
 
-            <item library="context.py">
-                <label>Mark as watched again</label>
-                <visible>!Skin.HasSetting(disablecontext:service.tweak.lastplayed) + [StringCompare(ListItem.DBTYPE, movie) | StringCompare(ListItem.DBTYPE, episode) | StringCompare(ListItem.DBTYPE, musicvideo) | String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)] + Integer.IsGreater(ListItem.PlayCount, 0)</visible>
-            </item>
+          <item library="resources/media/resources/loadsettings.py">
+            <label>[COLOR grey]TVGFS SKIN SETTINGS[/COLOR] [COLOR dimgrey]•[/COLOR] Cake</label>
+            <!-- xbmcaddon.Addon(id=thisADDONID).openSettings() -->
+            <!--<visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen) | !Window.IsVisible(addonbrowser)</visible>-->
+            <visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen)</visible>
+          </item>
+
+          <item library="ReloadAddonFolders.py">
+              <label>[COLOR grey]TVGFS[/COLOR] [COLOR dimgrey]•[/COLOR] Refresh addons.ini</label>
+              <visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen)</visible>
+           </item>
+
+          <item library="resources/media/resources/StillWatchingInfo.py">
+            <label>[COLOR grey]TVGFS[/COLOR] [COLOR dimgrey]•[/COLOR] Watching</label>
+            <!-- xbmcaddon.Addon(id=thisADDONID).openSettings() -->
+            <!--<visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen) | !Window.IsVisible(addonbrowser)</visible>-->
+            <visible>System.HasAddon(script.tvguide.fullscreen) + Player.HasMedia</visible>
+          </item>
 
         </menu>
     </extension>
-    -->
-    <!--
-    <extension point="kodi.context.item">
-        <menu id="kodi.core.manage">
-            <item library="context.py">
-                <label>Mark as watched again</label>
-                <visible>!Skin.HasSetting(disablecontext:service.tweak.lastplayed) + [StringCompare(ListItem.DBTYPE, movie) | StringCompare(ListItem.DBTYPE, episode) | StringCompare(ListItem.DBTYPE, musicvideo) | String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)] + Integer.IsGreater(ListItem.PlayCount, 0)</visible>
-            </item>
-            <item library="context_remove.py">
-                <label>Remove one watch count</label>
-                <visible>!Skin.HasSetting(disablecontext:service.tweak.lastplayed) + [StringCompare(ListItem.DBTYPE, movie) | StringCompare(ListItem.DBTYPE, episode) | StringCompare(ListItem.DBTYPE, musicvideo) | String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)] + Integer.IsGreater(ListItem.PlayCount, 1)</visible>
-            </item>
-            <item library="context_clearresume.py">
-                <label>Clear resume status</label>
-                <visible>!Skin.HasSetting(disablecontext:service.tweak.lastplayed) + [StringCompare(ListItem.DBTYPE, movie) | StringCompare(ListItem.DBTYPE, episode) | StringCompare(ListItem.DBTYPE, musicvideo) | String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)] + ListItem.IsResumable</visible>
-            </item>
-        </menu>
-    </extension>
-    -->
 
     <extension point="xbmc.addon.metadata">
         <description lang="en">TVGuide Fullscreen Skin</description>
@@ -222,8 +200,6 @@
             <screenshot>resources/media/screenshot-01.png</screenshot>
             <screenshot>resources/media/screenshot-02.png</screenshot>
             <screenshot>resources/media/screenshot-03.png</screenshot>
-            <screenshot>resources/media/screenshot-04.png</screenshot>
-            <screenshot>resources/media/screenshot-05.png</screenshot>
         </assets>
     </extension>
 </addon>
@@ -583,9 +559,9 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.18" version="2.0.13.1" name="Estuary 18  ([COLOR yellow]MOD[/COLOR])" provider-name="Andy,phil65, Ichabod Fletchman">
+<addon id="skin.estuary.18" version="2.0.16.1" name="Estuary ([COLOR yellow]18 MOD[/COLOR])" provider-name="andy, phil65, Ichabod Fletchman">
 	<requires>
-		<import addon="xbmc.gui" version="5.13.0"/>
+		<import addon="xbmc.gui" version="5.14.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
