@@ -16,7 +16,7 @@
     <platform>all</platform>
   </extension>
 -->
-<addon id="plugin.program.xyzwizard" name="XYZ Wizard" version="0.0.3" provider-name="Andy">
+<addon id="plugin.program.xyzwizard" name="XYZ Wizard" version="0.0.4" provider-name="Andy">
     <requires>
         <!-- 4.42 is api 19 and most need 25 -->
         <!-- Krypton 17 and up -->
@@ -140,7 +140,7 @@
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.cake" name="TV Guide Fullscreen - Cake Skin" version="0.0.8" provider-name="Andy,primaeval">
+<addon id="script.tvguide.fullscreen.skin.cake" name="TV Guide Fullscreen - Cake Skin" version="0.0.9" provider-name="Andy,primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <!--<import addon="xbmc.python" version="2.25.0"/>-->
@@ -173,13 +173,12 @@
               <visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen)</visible>
            </item>
 
+          <!--
           <item library="resources/media/resources/StillWatchingInfo.py">
             <label>[COLOR grey]TVGFS[/COLOR] [COLOR dimgrey]•[/COLOR] Watching</label>
-            <!-- xbmcaddon.Addon(id=thisADDONID).openSettings() -->
-            <!--<visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen) | !Window.IsVisible(addonbrowser)</visible>-->
             <visible>System.HasAddon(script.tvguide.fullscreen) + Player.HasMedia</visible>
           </item>
-
+           -->
         </menu>
     </extension>
 
@@ -559,7 +558,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.18" version="2.0.16.1" name="Estuary ([COLOR yellow]18 MOD[/COLOR])" provider-name="andy, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.18" version="2.0.19.1" name="Estuary ([COLOR yellow]18 MOD[/COLOR])" provider-name="andy, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 	</requires>
