@@ -173,12 +173,20 @@
               <visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen)</visible>
            </item>
 
-          <!--
           <item library="resources/media/resources/StillWatchingInfo.py">
             <label>[COLOR grey]TVGFS[/COLOR] [COLOR dimgrey]•[/COLOR] Watching</label>
-            <visible>System.HasAddon(script.tvguide.fullscreen) + Player.HasMedia</visible>
+            <!-- xbmcaddon.Addon(id=thisADDONID).openSettings() -->
+            <!--<visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen) | !Window.IsVisible(addonbrowser)</visible>-->
+            <visible>System.HasAddon(script.tvguide.fullscreen) + !Integer.IsGreater(Player.TimeRemaining,10)</visible>
           </item>
-           -->
+
+          <item library="ffmpeg.py">
+            <label>[COLOR grey]TVGFS[/COLOR] [COLOR dimgrey]•[/COLOR] Record</label>
+            <!-- xbmcaddon.Addon(id=thisADDONID).openSettings() -->
+            <!--<visible>System.HasAddon(script.tvguide.fullscreen) + String.Contains(ListItem.FileNameAndPath, script.tvguide.fullscreen) | !Window.IsVisible(addonbrowser)</visible>-->
+            <visible>System.HasAddon(script.tvguide.fullscreen) + !Integer.IsGreater(Player.TimeRemaining,10)</visible>
+          </item>
+
         </menu>
     </extension>
 
