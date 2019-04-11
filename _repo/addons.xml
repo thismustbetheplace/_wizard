@@ -22,6 +22,10 @@
         <!-- Krypton 17 and up -->
         <!--<import addon="xbmc.python" version="2.25.0" />-->
         <import addon="xbmc.python" version="2.1.0" />
+        <import addon="metadata.universal" />
+        <import addon="service.subtitles.subscene" />
+        <import addon="script.globalsearch" />
+        <import addon="weather.yahoo" />
     </requires>
     <!--
     <extension point="xbmc.python.script" library="default.py">
@@ -566,9 +570,17 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.18" version="2.0.19.1" name="Estuary ([COLOR yellow]18 MOD[/COLOR])" provider-name="andy, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.18" version="2.0.21" name="Estuary ([COLOR yellow]18 MOD[/COLOR])" provider-name="Andy, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="script.globalsearch"/>
+		<import addon="script.extendedinfo"/>
+		<import addon="metadata.universal"/>
+		<!--
+		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+        <import addon="script.skin.helper.widgets" version="1.0.0"/>
+		-->
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -606,7 +618,7 @@
 		<summary lang="is_IS">Estuary-skinnið eftir phil65. (sjálfgefið útlit Kodi)</summary>
 		<summary lang="it_IT">Skin Estuary da phil65 e Piers. (Skin predefinita di Kodi)</summary>
 		<summary lang="ja_JP">Estuary スキン by phil65 and Piers (Kodi デフォルトスキン)</summary>
-		<summary lang="ko_KR">phil65와 Piers가 만든 Estuary 스킨 (Kodi 기본 스킨)</summary>
+		<summary lang="ko_KR">phil65가 만든 Estuary 스킨. (Kodi 기본 스킨)</summary>
 		<summary lang="lt_LT">Estuary teminė išvaizda, kurią sukūrė phil65 ir Piers. (Numatytoji Kodi teminė išvaizda)</summary>
 		<summary lang="lv_LV">Estuary apvalks no phil65. (Kodi noklusējuma apvalks)</summary>
 		<summary lang="mk_MK">Estuary skin by phil65. (Kodi's default skin)</summary>
